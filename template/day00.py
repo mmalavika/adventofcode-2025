@@ -4,7 +4,7 @@ def partOne(inp):
 def partTwo(inp):
     return 0
 
-with open('input.txt') as f:
+with open('day00/input.txt') as f:
     file_input = f.readlines()
 
 print("Part One:", partOne(file_input))
